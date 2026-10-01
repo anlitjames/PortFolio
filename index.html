@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anlit James | Software Engineer | Angular &amp; .NET Developer</title>
+  <meta name="description" content="Portfolio of Anlit James, a Software Engineer with 3+ years of experience in Angular, .NET Core Web API, C#, SQL Server, REST APIs, and enterprise web application development.">
+  <meta name="keywords" content="Anlit James, Angular Developer, .NET Developer, .NET Core Developer, Full Stack Developer, C#, Entity Framework Core, SQL Server">
+  <meta name="author" content="Anlit James">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Anlit James | Software Engineer | Angular &amp; .NET Developer">
+  <meta property="og:description" content="Software Engineer with 3+ years of experience building scalable enterprise web applications with Angular &amp; .NET Core.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://linkedin.com/in/anlit-james">
+
+  <!-- Google Fonts: Inter & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-slate">
+
+  <!-- Navigation -->
+  <header id="header" class="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Anlit James Portfolio Home">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-text">Anlit <span class="text-accent">James</span></span>
+      </a>
+
+      <nav id="navbar" class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#architecture" class="nav-link">Architecture</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#resume" class="btn btn-outline-sm resume-nav-btn">
+          <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Resume</span>
+        </a>
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="ambient-glow glow-1"></div>
+      <div class="ambient-glow glow-2"></div>
+      
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge hero-badge">
+            <span class="status-dot"></span>
+            <span>Available for Opportunities</span>
+          </div>
+
+          <p class="hero-intro">Hi, I'm <strong class="text-white">Anlit James</strong></p>
+          <h1 class="hero-title">
+            Software Engineer building scalable web applications with <span class="gradient-text">Angular &amp; .NET</span>
+          </h1>
+
+          <p class="hero-description">
+            3+ years of experience developing enterprise web applications, RESTful APIs, authentication systems, dynamic forms, and database-driven solutions.
+          </p>
+
+          <div class="hero-tech-pills" aria-label="Primary Technical Stack">
+            <span class="tech-pill"><span class="pill-dot red"></span>Angular</span>
+            <span class="tech-pill"><span class="pill-dot purple"></span>.NET Core</span>
+            <span class="tech-pill"><span class="pill-dot blue"></span>C#</span>
+            <span class="tech-pill"><span class="pill-dot teal"></span>SQL Server</span>
+            <span class="tech-pill"><span class="pill-dot blue-alt"></span>TypeScript</span>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+            </a>
+            <a href="/assets/Anlit_James_Resume.pdf" class="btn btn-ghost">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <div class="hero-quick-meta">
+            <div class="meta-item">
+              <span class="meta-label">Location:</span>
+              <span class="meta-val">Kerala, India</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Experience:</span>
+              <span class="meta-val">3+ Years</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Specialization:</span>
+              <span class="meta-val">Full Stack (.NET + Angular)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Code Editor Terminal Window -->
+        <div class="hero-visual">
+          <div class="code-editor-card glass-panel">
+            <div class="editor-header">
+              <div class="window-controls">
+                <span class="dot close"></span>
+                <span class="dot minimize"></span>
+                <span class="dot maximize"></span>
+              </div>
+              <div class="editor-tabs">
+                <button class="editor-tab active" data-tab="backend">
+                  <span class="tab-icon csharp">#</span> BookingController.cs
+                </button>
+                <button class="editor-tab" data-tab="frontend">
+                  <span class="tab-icon angular">A</span> flight-search.component.ts
+                </button>
+              </div>
+              <div class="editor-badge">.NET Core / Angular</div>
+            </div>
+
+            <div class="editor-body">
+              <pre id="code-backend" class="code-block active"><code><span class="c-dim">// C# .NET Core Web API with EF Core &amp; JWT</span>
+[<span class="c-attr">Authorize</span>]
+[<span class="c-attr">ApiController</span>]
+[<span class="c-attr">Route</span>(<span class="c-str">"api/v1/[controller]"</span>)]
+<span class="c-kw">public class</span> <span class="c-class">BookingController</span> : <span class="c-class">ControllerBase</span>
+{
+    <span class="c-kw">private readonly</span> <span class="c-type">IAppDbContext</span> <span class="c-var">_context</span>;
+    <span class="c-kw">private readonly</span> <span class="c-type">IAirlineProvider</span> <span class="c-var">_provider</span>;
+
+    <span class="c-kw">public</span> <span class="c-func">BookingController</span>(<span class="c-type">IAppDbContext</span> db, <span class="c-type">IAirlineProvider</span> provider)
+    {
+        <span class="c-var">_context</span> = db;
+        <span class="c-var">_provider</span> = provider;
+    }
+
+    [<span class="c-attr">HttpPost</span>(<span class="c-str">"pnr-retrieve"</span>)]
+    <span class="c-kw">public async</span> <span class="c-type">Task</span>&lt;<span class="c-type">IActionResult</span>&gt; <span class="c-func">GetBooking</span>([<span class="c-attr">FromBody</span>] <span class="c-type">PnrRequest</span> req)
+    {
+        <span class="c-kw">var</span> booking = <span class="c-kw">await</span> <span class="c-var">_context</span>.<span class="c-prop">Bookings</span>
+            .<span class="c-func">Include</span>(b =&gt; b.<span class="c-prop">Passengers</span>)
+            .<span class="c-func">FirstOrDefaultAsync</span>(x =&gt; x.<span class="c-prop">PnrCode</span> == req.<span class="c-prop">PnrCode</span>);
+
+        <span class="c-kw">return</span> <span class="c-func">Ok</span>(booking);
+    }
+}</code></pre>
+
+              <pre id="code-frontend" class="code-block"><code><span class="c-dim">// Angular TypeScript Component with RxJS</span>
+<span class="c-attr">@Component</span>({
+  selector: <span class="c-str">'app-flight-search'</span>,
+  templateUrl: <span class="c-str">'./flight-search.component.html'</span>
+})
+<span class="c-kw">export class</span> <span class="c-class">FlightSearchComponent</span> <span class="c-kw">implements</span> <span class="c-class">OnInit</span> {
+  <span class="c-kw">private</span> <span class="c-var">destroy$</span> = <span class="c-kw">new</span> <span class="c-class">Subject</span>&lt;<span class="c-type">void</span>&gt;();
+  <span class="c-kw">public</span> <span class="c-var">searchForm</span>!: <span class="c-type">FormGroup</span>;
+  <span class="c-kw">public</span> <span class="c-var">flights$</span>!: <span class="c-type">Observable</span>&lt;<span class="c-type">FlightResult[]</span>&gt;;
+
+  <span class="c-kw">constructor</span>(
+    <span class="c-kw">private</span> <span class="c-var">fb</span>: <span class="c-type">FormBuilder</span>,
+    <span class="c-kw">private</span> <span class="c-var">apiService</span>: <span class="c-type">FlightApiService</span>
+  ) {}
+
+  <span class="c-func">ngOnInit</span>(): <span class="c-type">void</span> {
+    <span class="c-kw">this</span>.<span class="c-var">searchForm</span> = <span class="c-kw">this</span>.<span class="c-var">fb</span>.<span class="c-func">group</span>({
+      origin: [<span class="c-str">''</span>, <span class="c-class">Validators</span>.<span class="c-prop">required</span>],
+      destination: [<span class="c-str">''</span>, <span class="c-class">Validators</span>.<span class="c-prop">required</span>]
+    });
+  }
+}</code></pre>
+            </div>
+
+            <div class="editor-footer">
+              <div class="editor-status">
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">.NET Core</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">SQL Server</span>
+                <span class="tech-tag">EF Core</span>
+                <span class="tech-tag">REST API</span>
+                <span class="tech-tag">JWT</span>
+                <span class="tech-tag">RxJS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Profile &amp; Background</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-panel main-summary">
+            <div class="summary-body">
+              <p class="lead-text">
+                I am a <strong>Software Engineer with 3+ years of experience</strong> developing enterprise web applications using <strong>Angular</strong>, <strong>.NET Core Web API</strong>, <strong>C#</strong>, and <strong>MS SQL Server</strong>.
+              </p>
+              <p>
+                I have experience building scalable business applications, RESTful APIs, authentication systems, dynamic forms, and database-driven solutions.
+              </p>
+              <p>
+                My experience includes developing applications for the <strong>travel and aviation industry</strong>, event management systems, API integrations, authentication systems, database operations, and responsive Angular interfaces.
+              </p>
+            </div>
+
+            <div class="about-highlights-grid">
+              <div class="highlight-box">
+                <div class="h-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+                <div class="h-text"><strong>3+ Years Experience</strong><span>Enterprise Web Apps</span></div>
+              </div>
+              <div class="highlight-box">
+                <div class="h-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg></div>
+                <div class="h-text"><strong>Angular Development</strong><span>RxJS, NgRx, Forms</span></div>
+              </div>
+              <div class="highlight-box">
+                <div class="h-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg></div>
+                <div class="h-text"><strong>.NET Core Web API</strong><span>ASP.NET Core &amp; C#</span></div>
+              </div>
+              <div class="highlight-box">
+                <div class="h-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg></div>
+                <div class="h-text"><strong>SQL Server &amp; EF Core</strong><span>Optimized Queries &amp; LINQ</span></div>
+              </div>
+              <div class="highlight-box">
+                <div class="h-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></div>
+                <div class="h-text"><strong>REST API Integration</strong><span>Aviation &amp; Travel APIs</span></div>
+              </div>
+              <div class="highlight-box">
+                <div class="h-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div>
+                <div class="h-text"><strong>JWT Authentication</strong><span>Role-Based Access Control</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Core Capabilities (4 Cards) -->
+        <div class="capabilities-section">
+          <h3 class="capabilities-title">Development Capabilities</h3>
+          <div class="capabilities-grid">
+            <div class="capability-card glass-panel">
+              <div class="cap-header">
+                <div class="cap-icon red">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                </div>
+                <h4>Frontend Development</h4>
+              </div>
+              <p>Angular, TypeScript, RxJS, Reactive Forms, HTML5, CSS3, Bootstrap and responsive UI development.</p>
+              <div class="cap-tags">
+                <span>Angular</span>
+                <span>TypeScript</span>
+                <span>RxJS</span>
+                <span>Reactive Forms</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+
+            <div class="capability-card glass-panel">
+              <div class="cap-header">
+                <div class="cap-icon purple">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                </div>
+                <h4>Backend Development</h4>
+              </div>
+              <p>.NET Core Web API, ASP.NET Core, C# and REST API development.</p>
+              <div class="cap-tags">
+                <span>.NET Core</span>
+                <span>ASP.NET Core</span>
+                <span>C#</span>
+                <span>REST API</span>
+              </div>
+            </div>
+
+            <div class="capability-card glass-panel">
+              <div class="cap-header">
+                <div class="cap-icon teal">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                </div>
+                <h4>Database Development</h4>
+              </div>
+              <p>MS SQL Server, Entity Framework Core, LINQ and SQL query optimization.</p>
+              <div class="cap-tags">
+                <span>MS SQL Server</span>
+                <span>EF Core</span>
+                <span>LINQ</span>
+                <span>Optimization</span>
+              </div>
+            </div>
+
+            <div class="capability-card glass-panel">
+              <div class="cap-header">
+                <div class="cap-icon blue">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                </div>
+                <h4>Authentication &amp; Integration</h4>
+              </div>
+              <p>JWT authentication, role-based access control and REST API/provider integration.</p>
+              <div class="cap-tags">
+                <span>JWT Auth</span>
+                <span>RBAC</span>
+                <span>API Integrations</span>
+                <span>Aviation APIs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section id="skills" class="section-padding bg-surface">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Expertise &amp; Tooling</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Languages -->
+          <div class="skill-category-card glass-panel">
+            <div class="skill-cat-header">
+              <span class="skill-cat-icon">⚡</span>
+              <h3>Languages</h3>
+            </div>
+            <ul class="skill-item-list">
+              <li class="skill-badge"><span class="badge-accent"></span>C#</li>
+              <li class="skill-badge"><span class="badge-accent"></span>TypeScript</li>
+              <li class="skill-badge"><span class="badge-accent"></span>JavaScript</li>
+              <li class="skill-badge"><span class="badge-accent"></span>SQL</li>
+            </ul>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-category-card glass-panel">
+            <div class="skill-cat-header">
+              <span class="skill-cat-icon">🎨</span>
+              <h3>Frontend</h3>
+            </div>
+            <ul class="skill-item-list">
+              <li class="skill-badge"><span class="badge-accent"></span>Angular</li>
+              <li class="skill-badge"><span class="badge-accent"></span>RxJS</li>
+              <li class="skill-badge"><span class="badge-accent"></span>NgRx</li>
+              <li class="skill-badge"><span class="badge-accent"></span>HTML5</li>
+              <li class="skill-badge"><span class="badge-accent"></span>CSS3</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Bootstrap</li>
+            </ul>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-category-card glass-panel">
+            <div class="skill-cat-header">
+              <span class="skill-cat-icon">⚙️</span>
+              <h3>Backend</h3>
+            </div>
+            <ul class="skill-item-list">
+              <li class="skill-badge"><span class="badge-accent"></span>.NET Core Web API</li>
+              <li class="skill-badge"><span class="badge-accent"></span>ASP.NET Core</li>
+            </ul>
+          </div>
+
+          <!-- Database & ORM -->
+          <div class="skill-category-card glass-panel">
+            <div class="skill-cat-header">
+              <span class="skill-cat-icon">🗄️</span>
+              <h3>Database &amp; ORM</h3>
+            </div>
+            <ul class="skill-item-list">
+              <li class="skill-badge"><span class="badge-accent"></span>MS SQL Server</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Entity Framework Core</li>
+              <li class="skill-badge"><span class="badge-accent"></span>LINQ</li>
+            </ul>
+          </div>
+
+          <!-- Authentication -->
+          <div class="skill-category-card glass-panel">
+            <div class="skill-cat-header">
+              <span class="skill-cat-icon">🔒</span>
+              <h3>Authentication</h3>
+            </div>
+            <ul class="skill-item-list">
+              <li class="skill-badge"><span class="badge-accent"></span>JWT Authentication</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Role-Based Access Control</li>
+            </ul>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-category-card glass-panel">
+            <div class="skill-cat-header">
+              <span class="skill-cat-icon">🛠️</span>
+              <h3>Tools</h3>
+            </div>
+            <ul class="skill-item-list">
+              <li class="skill-badge"><span class="badge-accent"></span>Visual Studio</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Visual Studio Code</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Postman</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Git</li>
+              <li class="skill-badge"><span class="badge-accent"></span>SourceTree</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Bitbucket</li>
+            </ul>
+          </div>
+
+          <!-- Concepts -->
+          <div class="skill-category-card glass-panel col-span-full">
+            <div class="skill-cat-header">
+              <span class="skill-cat-icon">💡</span>
+              <h3>Engineering Concepts &amp; Methodologies</h3>
+            </div>
+            <ul class="skill-item-list skill-grid-wide">
+              <li class="skill-badge"><span class="badge-accent"></span>REST API Development</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Object-Oriented Programming (OOP)</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Data Structures and Algorithms</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Reactive Programming (RxJS)</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Database Optimization</li>
+              <li class="skill-badge"><span class="badge-accent"></span>Agile Development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION (Vertical Timeline) -->
+    <section id="experience" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Career Path</span>
+          <h2 class="section-title">Work Experience</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-card">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Software Developer</h3>
+                  <div class="company-name">Penguin Data Centre Pvt Ltd</div>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-date"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Jan 2025 – Aug 2026</span>
+                  <span class="timeline-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Kochi, India</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="resp-list">
+                  <li>Developed and maintained web applications for the <strong>travel and aviation industry</strong>.</li>
+                  <li>Worked on <strong>PenAir</strong> and <strong>PenIBE</strong> enterprise applications using Angular, .NET Core Web API, and MS SQL Server.</li>
+                  <li>Implemented PenAir modules for travel agency operations, including <strong>folder searching functionality</strong> and <strong>PNR-based booking updates</strong> using Dreamlake and Lime providers.</li>
+                  <li>Developed PenIBE flight booking features: <strong>flight search</strong>, <strong>search result listing</strong>, <strong>More Flights functionality</strong>, <strong>booking order management</strong>, and <strong>PNR-based booking retrieval</strong>.</li>
+                  <li>Integrated airline provider services including <strong>Amadeus</strong>, <strong>Sabre</strong>, and <strong>Air Arabia</strong>.</li>
+                  <li>Built responsive interfaces using <strong>Angular</strong>, HTML, and CSS.</li>
+                  <li>Contributed to frontend development, API integration, database management, and application enhancements.</li>
+                </ul>
+              </div>
+
+              <div class="timeline-footer">
+                <span class="tag">Angular</span>
+                <span class="tag">.NET Core Web API</span>
+                <span class="tag">MS SQL Server</span>
+                <span class="tag">Amadeus</span>
+                <span class="tag">Sabre</span>
+                <span class="tag">Air Arabia</span>
+                <span class="tag">Dreamlake</span>
+                <span class="tag">Lime</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-card">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Software Engineer</h3>
+                  <div class="company-name">AppRocker Technologies</div>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-date"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Dec 2022 – Oct 2024</span>
+                  <span class="timeline-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Kochi, India</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="resp-list">
+                  <li>Developed and maintained enterprise web applications using <strong>Angular</strong>, <strong>.NET Core Web API</strong>, <strong>C#</strong>, <strong>Entity Framework Core</strong>, and <strong>MS SQL Server</strong>.</li>
+                  <li>Implemented dynamic forms and workflow modules using <strong>Angular Reactive Forms</strong> and <strong>RxJS</strong>.</li>
+                  <li>Implemented <strong>JWT-based authentication</strong> and role-based access control (RBAC) mechanisms.</li>
+                  <li>Automated <strong>PDF document generation</strong> and reporting workflows.</li>
+                  <li>Optimized <strong>SQL queries</strong> and Entity Framework operations, improving application performance and reducing data retrieval times.</li>
+                  <li>Collaborated through <strong>Git workflows</strong> and code reviews within an <strong>Agile development</strong> framework.</li>
+                </ul>
+              </div>
+
+              <div class="timeline-footer">
+                <span class="tag">Angular</span>
+                <span class="tag">.NET Core Web API</span>
+                <span class="tag">C#</span>
+                <span class="tag">Entity Framework Core</span>
+                <span class="tag">MS SQL Server</span>
+                <span class="tag">RxJS</span>
+                <span class="tag">JWT</span>
+                <span class="tag">Git</span>
+                <span class="tag">Agile</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-card">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">MEARN Stack Developer Intern</h3>
+                  <div class="company-name">Luminar Technolab</div>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-date"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Jun 2022 – Oct 2022</span>
+                  <span class="timeline-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Kochi, India</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="resp-list">
+                  <li>Built full-stack applications using MongoDB, Express.js, Angular, React, and Node.js.</li>
+                  <li>Developed RESTful APIs and integrated frontend applications with backend services.</li>
+                  <li>Worked on application performance improvements and implemented efficient code design.</li>
+                  <li>Collaborated with developers to build and deploy scalable web applications.</li>
+                </ul>
+              </div>
+
+              <div class="timeline-footer">
+                <span class="tag">Angular</span>
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">REST APIs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section-padding bg-surface">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Featured Work</span>
+          <h2 class="section-title">Key Projects</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: PenAir -->
+          <div class="project-card glass-panel" data-project="penair">
+            <div class="project-card-header">
+              <div class="project-cat">Travel &amp; Aviation | Full-Stack Web App</div>
+              <h3 class="project-name">PenAir</h3>
+              <p class="project-tagline">Travel Agency Management Solution</p>
+            </div>
+
+            <p class="project-summary">
+              A travel agency management application supporting bookings, customer records, operational workflows, booking updates, and agency management functionality.
+            </p>
+
+            <div class="project-features-preview">
+              <div class="feat-item"><span class="bullet">›</span> Folder Search &amp; Booking Management</div>
+              <div class="feat-item"><span class="bullet">›</span> PNR-based Booking Updates (Dreamlake &amp; Lime)</div>
+              <div class="feat-item"><span class="bullet">›</span> Staff, Branch &amp; Affiliate Commission Management</div>
+              <div class="feat-item"><span class="bullet">›</span> SQL Optimization &amp; REST API Integration</div>
+            </div>
+
+            <div class="project-tech-bar">
+              <span class="tech-badge">Angular</span>
+              <span class="tech-badge">.NET Core Web API</span>
+              <span class="tech-badge">C#</span>
+              <span class="tech-badge">EF Core</span>
+              <span class="tech-badge">MS SQL Server</span>
+              <span class="tech-badge">REST APIs</span>
+            </div>
+
+            <div class="project-card-footer">
+              <button class="btn btn-outline-sm view-details-btn" data-project-id="penair">
+                <span>View Details</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 2: PenIBE -->
+          <div class="project-card glass-panel" data-project="penibe">
+            <div class="project-card-header">
+              <div class="project-cat">Travel &amp; Aviation | Flight Booking</div>
+              <h3 class="project-name">PenIBE</h3>
+              <p class="project-tagline">Flight Booking Engine</p>
+            </div>
+
+            <p class="project-summary">
+              A flight booking application providing flight search, search results, More Flights functionality, booking order management, and PNR-based booking retrieval.
+            </p>
+
+            <div class="project-features-preview">
+              <div class="feat-item"><span class="bullet">›</span> Flight Search &amp; Search Result Listing</div>
+              <div class="feat-item"><span class="bullet">›</span> More Flights Functionality</div>
+              <div class="feat-item"><span class="bullet">›</span> Booking Order Management &amp; PNR Retrieval</div>
+              <div class="feat-item"><span class="bullet">›</span> Integrations with Amadeus, Sabre &amp; Air Arabia</div>
+            </div>
+
+            <div class="project-tech-bar">
+              <span class="tech-badge">Angular</span>
+              <span class="tech-badge">TypeScript</span>
+              <span class="tech-badge">HTML5</span>
+              <span class="tech-badge">CSS3</span>
+              <span class="tech-badge">REST APIs</span>
+            </div>
+
+            <div class="project-card-footer">
+              <button class="btn btn-outline-sm view-details-btn" data-project-id="penibe">
+                <span>View Details</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 3: EventZet -->
+          <div class="project-card glass-panel" data-project="eventzet">
+            <div class="project-card-header">
+              <div class="project-cat">Event Management | Full-Stack Web App</div>
+              <h3 class="project-name">EventZet</h3>
+              <p class="project-tagline">Event Management System</p>
+            </div>
+
+            <p class="project-summary">
+              An event management platform supporting event creation, attendee registration, ticket booking, and volunteer management with JWT authentication.
+            </p>
+
+            <div class="project-features-preview">
+              <div class="feat-item"><span class="bullet">›</span> Event Creation &amp; Attendee Registration</div>
+              <div class="feat-item"><span class="bullet">›</span> Ticket Booking &amp; Volunteer Management</div>
+              <div class="feat-item"><span class="bullet">›</span> JWT Authentication &amp; RBAC</div>
+              <div class="feat-item"><span class="bullet">›</span> Entity Framework Core &amp; SQL Server Operations</div>
+            </div>
+
+            <div class="project-tech-bar">
+              <span class="tech-badge">Angular</span>
+              <span class="tech-badge">.NET Core Web API</span>
+              <span class="tech-badge">C#</span>
+              <span class="tech-badge">EF Core</span>
+              <span class="tech-badge">SQL Server</span>
+              <span class="tech-badge">JWT</span>
+            </div>
+
+            <div class="project-card-footer">
+              <button class="btn btn-outline-sm view-details-btn" data-project-id="eventzet">
+                <span>View Details</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FULL-STACK ARCHITECTURE SECTION -->
+    <section id="architecture" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">System Design</span>
+          <h2 class="section-title">How I Build Applications</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="arch-container glass-panel">
+          <div class="arch-flow-wrapper">
+            <!-- Step 1: Angular -->
+            <div class="arch-step" data-step="1">
+              <div class="arch-step-badge">Frontend</div>
+              <div class="arch-step-icon red">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h4 class="arch-step-title">Angular Client</h4>
+              <p class="arch-step-desc">Reactive UI, RxJS streams, Reactive Forms, component modularity &amp; HTTP interceptors.</p>
+            </div>
+
+            <div class="arch-arrow">
+              <span class="arrow-text">REST / JSON</span>
+              <div class="arrow-line"></div>
+              <span class="arrow-head">▼</span>
+            </div>
+
+            <!-- Step 2: REST API & Controller -->
+            <div class="arch-step" data-step="2">
+              <div class="arch-step-badge">Backend API</div>
+              <div class="arch-step-icon purple">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+              <h4 class="arch-step-title">.NET Core Web API</h4>
+              <p class="arch-step-desc">Controllers, Dependency Injection, JWT validation, DTOs &amp; business service layer.</p>
+            </div>
+
+            <div class="arch-arrow">
+              <span class="arrow-text">LINQ Queries</span>
+              <div class="arrow-line"></div>
+              <span class="arrow-head">▼</span>
+            </div>
+
+            <!-- Step 3: Entity Framework Core -->
+            <div class="arch-step" data-step="3">
+              <div class="arch-step-badge">ORM Layer</div>
+              <div class="arch-step-icon blue">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+              </div>
+              <h4 class="arch-step-title">Entity Framework Core</h4>
+              <p class="arch-step-desc">DbContext, entity mapping, change tracking, migrations &amp; optimized query execution.</p>
+            </div>
+
+            <div class="arch-arrow">
+              <span class="arrow-text">Optimized SQL</span>
+              <div class="arrow-line"></div>
+              <span class="arrow-head">▼</span>
+            </div>
+
+            <!-- Step 4: MS SQL Server -->
+            <div class="arch-step" data-step="4">
+              <div class="arch-step-badge">Database</div>
+              <div class="arch-step-icon teal">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <h4 class="arch-step-title">MS SQL Server</h4>
+              <p class="arch-step-desc">Relational schema, indexed tables, stored procedures, transactions &amp; data persistence.</p>
+            </div>
+          </div>
+
+          <div class="arch-supporting-bar">
+            <span class="supp-label">Supporting Core Technologies:</span>
+            <div class="supp-tech-list">
+              <span class="supp-pill">TypeScript</span>
+              <span class="supp-pill">RxJS</span>
+              <span class="supp-pill">LINQ</span>
+              <span class="supp-pill">JWT</span>
+              <span class="supp-pill">Git</span>
+              <span class="supp-pill">Postman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section-padding bg-surface">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Qualification</span>
+          <h2 class="section-title">Education</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="education-grid">
+          <div class="education-card glass-panel">
+            <div class="edu-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <div class="edu-content">
+              <div class="edu-degree">Bachelor of Science in Computer Science</div>
+              <div class="edu-university">University of Calicut</div>
+              <div class="edu-meta">
+                <span class="edu-date"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 2019 – 2022</span>
+                <span class="edu-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Kerala, India</span>
+              </div>
+              <p class="edu-desc">
+                Core foundation in computer science principles, data structures, object-oriented programming, relational databases, and software engineering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume" class="section-padding">
+      <div class="container">
+        <div class="resume-cta-card glass-panel">
+          <div class="resume-cta-content">
+            <span class="resume-tag">Curriculum Vitae</span>
+            <h2 class="resume-title">Interested in my experience?</h2>
+            <p class="resume-desc">
+              Download my resume to explore my professional experience, technical skills, projects, and education.
+            </p>
+            <div class="resume-actions">
+              <a href="assets/Anlit_James_Resume.pdf" class="btn btn-primary" download="Anlit_James_Resume.pdf" id="resumeDownloadBtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download Resume</span>
+              </a>
+              <button class="btn btn-secondary" onclick="window.print()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                <span>Print Profile</span>
+              </button>
+            </div>
+          </div>
+          <div class="resume-preview-badge">
+            <div class="preview-mini-card">
+              <div class="mini-card-header">
+                <div class="doc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg></div>
+                <div>
+                  <div class="doc-name">Anlit_James_Resume.pdf</div>
+                  <div class="doc-meta">Software Engineer (Angular / .NET)</div>
+                </div>
+              </div>
+              <div class="mini-card-skills">
+                <span>Angular</span>
+                <span>.NET Core</span>
+                <span>C#</span>
+                <span>SQL Server</span>
+                <span>EF Core</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-padding bg-surface">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="title-underline"></div>
+          <p class="section-intro">
+            I'm open to opportunities where I can contribute my Angular, .NET, API integration, and database development experience.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Details -->
+          <div class="contact-info-wrapper">
+            <div class="contact-info-card glass-panel">
+              <div class="c-info-item">
+                <div class="c-info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="c-info-text">
+                  <span class="c-label">Email</span>
+                  <a href="mailto:anlitjames7@gmail.com" class="c-value">anlitjames7@gmail.com</a>
+                </div>
+                <button class="copy-btn" data-copy="anlitjames7@gmail.com" title="Copy email">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+
+              <div class="c-info-item">
+                <div class="c-info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="c-info-text">
+                  <span class="c-label">Phone</span>
+                  <a href="tel:+919074484442" class="c-value">+91 9074484442</a>
+                </div>
+                <button class="copy-btn" data-copy="+919074484442" title="Copy phone number">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+
+              <div class="c-info-item">
+                <div class="c-info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div class="c-info-text">
+                  <span class="c-label">LinkedIn</span>
+                  <a href="https://linkedin.com/in/anlit-james" target="_blank" rel="noopener noreferrer" class="c-value">linkedin.com/in/anlit-james</a>
+                </div>
+                <a href="https://linkedin.com/in/anlit-james" target="_blank" rel="noopener noreferrer" class="copy-btn" title="Open LinkedIn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+
+              <div class="c-info-item">
+                <div class="c-info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="c-info-text">
+                  <span class="c-label">Location</span>
+                  <span class="c-value">Kerala, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div class="contact-form-wrapper glass-panel">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contactName">Your Name <span class="required">*</span></label>
+                <input type="text" id="contactName" name="name" class="form-control" placeholder="e.g. John Doe" required>
+                <span class="error-msg" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Email Address <span class="required">*</span></label>
+                <input type="email" id="contactEmail" name="email" class="form-control" placeholder="e.g. recruiter@company.com" required>
+                <span class="error-msg" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Message <span class="required">*</span></label>
+                <textarea id="contactMessage" name="message" rows="4" class="form-control" placeholder="Hi Anlit, we are looking for a Software Engineer with your Angular &amp; .NET experience..." required></textarea>
+                <span class="error-msg" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                <span>Send Message</span>
+              </button>
+
+              <div id="formFeedback" class="form-feedback" style="display: none;"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="footer-name">Anlit James</div>
+        <div class="footer-role">Software Engineer | Angular &amp; .NET Developer</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/anlit-james" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="mailto:anlitjames7@gmail.com" class="footer-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <span>Email</span>
+        </a>
+      </div>
+
+      <div class="footer-copyright">
+        &copy; 2026 Anlit James. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div id="projectModal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-dialog glass-panel">
+      <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div id="modalContent" class="modal-content">
+        <!-- Dynamically injected project content -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
